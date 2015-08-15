@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">About Us</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="stephanie_title">Lead Programmer</string>
+    <string name="stephanie_name">Stephanie "Supreme Overlord" Villarino</string>
+    <string name="steve_title">Video Programmer</string>
+    <string name="steve_name">Steve "Linux Guy" Lorenz</string>
+    <string name="brian_title">Graph Programmer</string>
+    <string name="brian_name">Brian "I might like iOS" Biggs</string>
+    <string name="guideProgrammer_title">Guide Programmer</string>
+    <string name="ricky_name">Ricky "Fries n Sketchup" Choi</string>
+    <string name="dylan_name">Dylan "What goes here" Nakahodo</string>
+    <string name="george_name">George "I E> iOS" Agustin </string>
+    <string name="peiyi_name">Peiyi "Scholar" Kwok</string>
+    <string name="maverick_title">Scaling Programmer</string>
+    <string name="maverick_name">Maverick "Not Top Gun" Jennings</string>
+    <string name="samuel_title">Unit Tester-</string>
+    <string name="samuel_name">Samuel "Invisible Man" Uy</string>
+    <string name="jennifer_title">Faculty Advisor</string>
+    <string name="jennifer_name">Jennifer "It's All Good" McFatridge</string>
+
+</resources>
