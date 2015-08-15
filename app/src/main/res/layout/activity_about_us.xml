@@ -58,6 +58,206 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingRight="40dp"
+                android:textColor="#ffffffff"
+                android:text="@string/brian_title"
+                android:id="@+id/brian_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="#ffffffff"
+                android:text="@string/brian_name"
+                android:id="@+id/brian_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingRight="40dp"
+                android:textColor="#ffffffff"
+                android:text="@string/guideProgrammer_title"
+                android:id="@+id/ricky_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="#ffffffff"
+                android:text="@string/ricky_name"
+                android:id="@+id/ricky_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingRight="40dp"
+                android:textColor="#ffffffff"
+                android:text="@string/guideProgrammer_title"
+                android:id="@+id/dylan_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="#ffffffff"
+                android:text="@string/dylan_name"
+                android:id="@+id/dylan_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingRight="40dp"
+                android:textColor="#ffffffff"
+                android:text="@string/guideProgrammer_title"
+                android:id="@+id/george_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="#ffffffff"
+                android:text="@string/george_name"
+                android:id="@+id/george_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingRight="40dp"
+                android:textColor="#ffffffff"
+                android:text="@string/guideProgrammer_title"
+                android:id="@+id/peiyi_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="#ffffffff"
+                android:text="@string/peiyi_name"
+                android:id="@+id/peiyi_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingRight="40dp"
+                android:textColor="#ffffffff"
+                android:text="@string/maverick_title"
+                android:id="@+id/maverick_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="#ffffffff"
+                android:text="@string/maverick_name"
+                android:id="@+id/maverick_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingRight="40dp"
+                android:textColor="#ffffffff"
+                android:text="@string/jennifer_title"
+                android:id="@+id/jennifer_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textColor="#ffffffff"
+                android:text="@string/jennifer_name"
+                android:id="@+id/jennifer_name"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#ffffffff"
+            android:text="Much thanks to"
+            android:id="@+id/textView_thanks"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#ffffffff"
+            android:text="-the 'Ike Collaborative, funded by the National Science Foundation"
+            android:id="@+id/contributor1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#ffffffff"
+            android:text="-Leeward Community College"
+            android:id="@+id/contributor2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#ffffffff"
+            android:text="-Caffeine"
+            android:id="@+id/contributor3"/>
+
     </LinearLayout>
 
 </LinearLayout>
