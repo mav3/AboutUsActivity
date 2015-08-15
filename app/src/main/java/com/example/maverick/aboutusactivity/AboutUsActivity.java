@@ -1,9 +1,11 @@
 package com.example.maverick.aboutusactivity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class AboutUsActivity extends AppCompatActivity {
 
@@ -11,6 +13,17 @@ public class AboutUsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
+
+        this.returnButton();
+    }
+
+    private void returnButton() {
+        final TextView return_ =(TextView)findViewById(R.id.textView_returnButton);
+
+        return_.setOnClickListener((v) -> {
+            Intent startIntent = new Intent(AboutUsActivity.this, HomeActivity.class);
+            startActivity(startIntent);
+        });
     }
 
     @Override
