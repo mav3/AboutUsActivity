@@ -1,26 +1,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".AboutUsActivity"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity"
     android:background="#003399">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="55dp"
                 android:textColor="#ffffffff"
                 android:text="@string/stephanie_title"
                 android:id="@+id/stephanie_title"/>
@@ -36,14 +42,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="50dp"
                 android:textColor="#ffffffff"
                 android:text="@string/steve_title"
                 android:id="@+id/steve_title"/>
@@ -60,14 +67,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="50dp"
                 android:textColor="#ffffffff"
                 android:text="@string/brian_title"
                 android:id="@+id/brian_title"/>
@@ -84,14 +92,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="50dp"
                 android:textColor="#ffffffff"
                 android:text="@string/guideProgrammer_title"
                 android:id="@+id/ricky_title"/>
@@ -108,14 +117,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="50dp"
                 android:textColor="#ffffffff"
                 android:text="@string/guideProgrammer_title"
                 android:id="@+id/dylan_title"/>
@@ -132,14 +142,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="50dp"
                 android:textColor="#ffffffff"
                 android:text="@string/guideProgrammer_title"
                 android:id="@+id/george_title"/>
@@ -156,14 +167,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="50dp"
                 android:textColor="#ffffffff"
                 android:text="@string/guideProgrammer_title"
                 android:id="@+id/peiyi_title" />
@@ -174,20 +186,21 @@
                 android:layout_gravity="right"
                 android:textColor="#ffffffff"
                 android:text="@string/peiyi_name"
-                android:id="@+id/peiyi_name"/>
+                android:id="@+id/peiyi_name" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="39dp"
                 android:textColor="#ffffffff"
                 android:text="@string/maverick_title"
                 android:id="@+id/maverick_title"/>
@@ -204,14 +217,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:paddingRight="40dp"
+                android:paddingRight="72dp"
                 android:textColor="#ffffffff"
                 android:text="@string/jennifer_title"
                 android:id="@+id/jennifer_title"/>
@@ -228,7 +242,8 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="left"
             android:textColor="#ffffffff"
             android:text="Much thanks to"
@@ -236,7 +251,8 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="left"
             android:textColor="#ffffffff"
             android:text="-the 'Ike Collaborative, funded by the National Science Foundation"
@@ -244,7 +260,8 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="left"
             android:textColor="#ffffffff"
             android:text="-Leeward Community College"
@@ -252,12 +269,24 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_gravity="left"
             android:textColor="#ffffffff"
             android:text="-Caffeine"
             android:id="@+id/contributor3"/>
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="right"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:text="Return >> "
+        android:id="@+id/textView_returnButton"/>
 
 </LinearLayout>
